@@ -1,3 +1,35 @@
+# Maven
+/target/
+/.mvn/
+
+# IDEs
+.idea/
+.classpath
+.project
+.settings/
+.vscode/
+
+# Logs
+*.log
+backend.log
+
+# OS
+.DS_Store
+
+# Jenkins home bind-mount (contains secrets)
+/jenkins_home/
+
+# Docker
+.env
+docker-compose.override.yml
+
+# Sonar
+.scannerwork/
+.sonar/
+
+# Others
+/node_modules/
+/.history/
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
